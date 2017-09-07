@@ -200,4 +200,8 @@ public class CircleProgress extends View {
       invalidate();
     }
   }
+
+  public void setBackgroundColor(int color) {
+    bgPaint.setColor(color);
+  }
 }

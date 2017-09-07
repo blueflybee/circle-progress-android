@@ -1,6 +1,7 @@
 package com.flybluebee.circleprogressbar;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     setContentView(R.layout.activity_main);
 
     mCircleProgress = (CircleProgress) findViewById(R.id.myCircleProgress);
+    mCircleProgress.setBackgroundColor(Color.GREEN);
     mCircleProgress2 = (CircleProgress) findViewById(R.id.myCircleProgress2);
     mTickCircleProgress = (TickCircleProgress) findViewById(R.id.myTickCircleProgress);
     mTickCircleProgress2 = (TickCircleProgress) findViewById(R.id.myTickCircleProgress2);
